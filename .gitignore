@@ -1,0 +1,79 @@
+#############################
+# ENVIRONNEMENT VIRTUEL
+#############################
+# On ignore le dossier de lâ€™environnement Python (venv)
+# car il est diffÃ©rent pour chaque machine.
+venv/
+env/
+
+# Fichiers dâ€™environnement contenant des clÃ©s sensibles (secret key, mots de passeâ€¦)
+.env
+.env.*
+*.env
+
+
+#############################
+# CACHE & FICHIERS PYTHON
+#############################
+# Fichiers compilÃ©s automatiquement par Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+#############################
+# DJANGO & WAGTAIL
+#############################
+# Base de donnÃ©es SQLite locale.
+# Elle contient des donnÃ©es de dÃ©veloppement, diffÃ©rentes pour chaque utilisateur.
+db.sqlite3
+
+# Fichiers uploadÃ©s via Wagtail (images, mÃ©dias) â†’ jamais versionnÃ©s.
+media/
+
+# Fichiers statiques collectÃ©s avec "collectstatic".
+# Ils peuvent Ãªtre rÃ©gÃ©nÃ©rÃ©s et ne doivent pas Ãªtre poussÃ©s.
+staticfiles/
+
+# ParamÃ¨tres locaux non versionnÃ©s (souvent utilisÃ©s en dev)
+local_settings.py
+
+
+#############################
+# LOGS
+#############################
+# Fichiers de logs gÃ©nÃ©rÃ©s par Django
+*.log
+
+
+#############################
+# IDE & Ã‰DITEURS DE CODE
+#############################
+# Dossier VS Code
+.vscode/
+
+# Dossier PyCharm / IntelliJ (macOS + autres OS)
+.idea/
+
+# Fichiers JetBrains
+*.iml
+
+# Fichiers de notebooks
+.ipynb_checkpoints/
+
+
+#############################
+# SYSTÃˆME / OS
+#############################
+# Fichiers gÃ©nÃ©rÃ©s par macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers gÃ©nÃ©rÃ©s par Windows
+Thumbs.db
+ehthumbs.db
+
+# Corbeille macOS
+.Trashes
